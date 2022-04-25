@@ -1,0 +1,57 @@
+remark goes here
+MASS
+CA 12.010        0.360               same as c2 
+OS 16.000        0.465               same as os 
+OH 16.000        0.465               same as oh 
+Cl 35.450        1.910               same as cl 
+HA 1.008         0.135               same as hc 
+HO 1.008         0.135               same as ho 
+
+BOND
+CA-CA  478.40   1.387       same as ca-ca
+CA-OS  392.60   1.357       same as c2-os
+CA-OH  425.40   1.333       same as c2-oh
+CA-HA  344.30   1.087       same as c2-hc
+CA-Cl  328.80   1.722       same as c2-cl
+OH-HO  369.60   0.974       same as ho-oh
+
+ANGLE
+CA-CA-CA   67.200     119.970   same as ca-ca-ca
+CA-CA-OH   71.600     122.280   same as c2-c2-oh
+CA-CA-HA   50.300     119.700   same as c2-c2-hc
+CA-OS-CA   66.000     113.140   same as c2-os-c2
+CA-CA-OS   71.200     121.430   same as c2-c2-os
+CA-OH-HO   49.900     108.980   same as c2-oh-ho
+CA-CA-Cl   58.400     122.790   same as c2-c2-cl
+
+DIHE
+CA-CA-CA-CA   1    3.625       180.000           2.000      same as X -ca-ca-X 
+CA-CA-CA-HA   1    6.650       180.000           2.000      same as X -c2-c2-X 
+CA-CA-OH-HO   1    1.050       180.000           2.000      same as X -c2-oh-X 
+CA-OS-CA-CA   1    1.050       180.000           2.000      same as X -c2-os-X 
+CA-CA-CA-Cl   1    6.650       180.000           2.000      same as X -c2-c2-X 
+CA-CA-CA-OS   1    6.650       180.000           2.000      same as X -c2-c2-X 
+CA-CA-CA-OH   1    6.650       180.000           2.000      same as X -c2-c2-X 
+OS-CA-CA-OH   1    6.650       180.000           2.000      same as X -c2-c2-X 
+OS-CA-CA-HA   1    6.650       180.000           2.000      same as X -c2-c2-X 
+OS-CA-CA-Cl   1    6.650       180.000           2.000      same as X -c2-c2-X 
+OH-CA-CA-HA   1    6.650       180.000           2.000      same as X -c2-c2-X 
+Cl-CA-CA-HA   1    6.650       180.000           2.000      same as X -c2-c2-X 
+HA-CA-CA-HA   1    6.650       180.000           2.000      same as X -c2-c2-X 
+
+IMPROPER
+CA-CA-CA-OS         1.1          180.0         2.0          Using default value
+CA-CA-CA-OH         1.1          180.0         2.0          Using default value
+CA-CA-CA-HA         1.1          180.0         2.0          Using default value
+CA-CA-CA-Cl         1.1          180.0         2.0          Using default value
+
+NONBON
+  CA          1.9080  0.0860             same as ca 
+  OS          1.6837  0.1700             same as os 
+  OH          1.7210  0.2104             same as oh 
+  Cl          1.9480  0.2650             same as cl 
+  HA          1.4870  0.0157             same as hc 
+  HO          0.0000  0.0000             same as ho 
+
+
+

@@ -1,0 +1,127 @@
+            --------------------------------------------------------
+                              AMBER SQM VERSION 1.0                 
+ 
+                                      By
+                              Ross C. Walker (SDSC)
+                                      and
+                             David A. Case (Rutgers)
+ 
+            --------------------------------------------------------
+ 
+
+--------------------------------------------------------------------------------
+  3.1 QM CALCULATION INFO
+--------------------------------------------------------------------------------
+
+QMMM: SINGLET STATE CALCULATION
+QMMM: RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 44
+
+| QMMM: Citation for AMBER QMMM Run:
+| QMMM: R.C. Walker, M.F. Crowley and D.A. Case, J. COMP. CHEM. 29:1019, 2008
+
+| QMMM: Parameter sets in use:
+| QMMM: C : M.J.S.DEWAR et al. JACS, 107, 3902, (1985)
+| QMMM: O : M.J.S.DEWAR et al. JACS, 107, 3902, (1985)
+| QMMM: Cl: M.J.S.DEWAR et al. THEOCHEM, 180, 1, (1988)
+| QMMM: H : M.J.S.DEWAR et al. JACS, 107, 3902, (1985)
+
+| QMMM: *** Diagonalization Routine Information ***
+| QMMM: Pseudo diagonalizations are allowed.
+| QMMM: Auto diagonalization routine selection is disabled.
+| QMMM: Using internal diagonalization routine (diag_routine=1).
+
+  QMMM: QM Region Cartesian Coordinates (*=link atom) 
+  QMMM: QM_NO.   MM_NO.  ATOM         X         Y         Z
+  QMMM:     1        1      C       13.1790    9.9050   22.6170
+  QMMM:     2        2      C       14.3080   10.6890   22.0430
+  QMMM:     3        3      C       15.5830   10.1370   22.0290
+  QMMM:     4        4      C       15.7830    8.8620   22.5500
+  QMMM:     5        5      C       14.7270    8.1210   23.0910
+  QMMM:     6        6      C       13.4240    8.6330   23.1330
+  QMMM:     7        7      O       11.9200   10.4380   22.6480
+  QMMM:     8        8      O       14.0880   11.9240   21.5270
+  QMMM:     9        9      C       11.0210   10.3200   21.6230
+  QMMM:    10       10      C        9.6510   10.8580   21.8170
+  QMMM:    11       11      C        8.7170   10.7520   20.7930
+  QMMM:    12       12      C        9.0850   10.1420   19.5990
+  QMMM:    13       13      C       10.3750    9.6390   19.4140
+  QMMM:    14       14      C       11.3440    9.7200   20.4110
+  QMMM:    15       15      Cl       9.2190   11.6370   23.3690
+  QMMM:    16       16      Cl       7.8820   10.0100   18.2740
+  QMMM:    17       17      Cl      17.4290    8.1710   22.5330
+  QMMM:    18       18      H       16.4190   10.6960   21.5800
+  QMMM:    19       19      H       14.9930    7.1850   23.6090
+  QMMM:    20       20      H       12.6250    8.0170   23.5750
+  QMMM:    21       21      H       13.1320   12.0840   21.6140
+  QMMM:    22       22      H        7.7110   11.1820   20.9180
+  QMMM:    23       23      H       10.5400    9.0760   18.4830
+  QMMM:    24       24      H       12.3450    9.3070   20.2160
+
+--------------------------------------------------------------------------------
+   4.  RESULTS
+--------------------------------------------------------------------------------
+
+sqm energy:    10    -38.2935    0.231106
+sqm energy:    20    -38.3789    0.092463
+sqm energy:    30    -38.3795    0.000548
+ Final SCF energy is   -38.3795177187567     
+ 
+    Atomic Charges for Step       1 :
+  Atom    Element       Mulliken Charge
+     1      C                 -0.049
+     2      C                  0.098
+     3      C                 -0.149
+     4      C                 -0.032
+     5      C                 -0.150
+     6      C                 -0.099
+     7      O                 -0.155
+     8      O                 -0.239
+     9      C                  0.066
+    10      C                 -0.074
+    11      C                 -0.101
+    12      C                 -0.077
+    13      C                 -0.096
+    14      C                 -0.163
+    15      Cl                 0.021
+    16      Cl                -0.001
+    17      Cl                -0.002
+    18      H                  0.171
+    19      H                  0.155
+    20      H                  0.156
+    21      H                  0.240
+    22      H                  0.166
+    23      H                  0.156
+    24      H                  0.159
+ Total Mulliken Charge =       0.000
+ 
+ Final Structure
+
+  QMMM: QM Region Cartesian Coordinates (*=link atom) 
+  QMMM: QM_NO.   MM_NO.  ATOM         X         Y         Z
+  QMMM:     1        1      C       13.2475   10.1328   22.3850
+  QMMM:     2        2      C       14.4519   10.8314   22.1646
+  QMMM:     3        3      C       15.6783   10.1564   22.2734
+  QMMM:     4        4      C       15.6727    8.7994   22.5967
+  QMMM:     5        5      C       14.4757    8.1061   22.8198
+  QMMM:     6        6      C       13.2600    8.7754   22.7168
+  QMMM:     7        7      O       12.0776   10.8933   22.3859
+  QMMM:     8        8      O       14.4964   12.1654   21.8551
+  QMMM:     9        9      C       11.0779   10.4756   21.5126
+  QMMM:    10       10      C        9.7597   10.8663   21.8192
+  QMMM:    11       11      C        8.7272   10.5348   20.9359
+  QMMM:    12       12      C        9.0095    9.8167   19.7714
+  QMMM:    13       13      C       10.3185    9.4249   19.4721
+  QMMM:    14       14      C       11.3515    9.7556   20.3426
+  QMMM:    15       15      Cl       9.3812   11.7358   23.2247
+  QMMM:    16       16      Cl       7.7463    9.4155   18.7097
+  QMMM:    17       17      Cl      17.1512    7.9723   22.7242
+  QMMM:    18       18      H       16.6145   10.7082   22.1025
+  QMMM:    19       19      H       14.4934    7.0373   23.0805
+  QMMM:    20       20      H       12.3103    8.2481   22.8920
+  QMMM:    21       21      H       13.5850   12.5026   21.8467
+  QMMM:    22       22      H        7.6927   10.8396   21.1643
+  QMMM:    23       23      H       10.5354    8.8602   18.5521
+  QMMM:    24       24      H       12.3857    9.4516   20.1183
+
+           --------- Calculation Completed ----------
+

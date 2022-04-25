@@ -1,0 +1,5 @@
+source leaprc.gaff
+TCL = loadmol2 2pd3-tcs-chainA.remap.mol2
+check TCL
+saveoff TCL 2pd3-tcl-chainA.remap.lib
+quit

@@ -1,0 +1,4 @@
+source leaprc.ff99bsc0
+loadoff TCS/tcs.pert2.lib
+loadamberparams TCS/tcs.frcmod
+m=loadpdb 2pd3-tcl-chainA.mod.pdb 

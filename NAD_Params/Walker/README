@@ -1,0 +1,21 @@
+Parameters for NAD+ taken from http://www.pharmacy.manchester.ac.uk/bryce/amber#cof, R. Walker. NAD in PDB converted to format consistent with Amber parameters (resname NDP, atom names). Atoms in PDB in same order as atoms in parameter file, 1:1 atom name direct conversion, seems ok.
+Type	Element	Hybrid.	Desc.
+NE	N	sp2	Nitrogen of -CONH2
+NF	N	sp2	N+ in 6 member aromatic ring
+OE	O	sp2	Carbonyl oxygen of -CONH2
+CE	C	sp2	*Carbonyl carbon of -CONH2
+CF	C	sp2	*Carbon bonded to -CONH2 in 6 member aromatic ring
+CI	C	sp2	*Carbon bonded to CF and CF in 6 member aromatic ring (Duplicate in bsc0?)
+CJ	C	sp2	*Carbon bonded to CF and NF in 6 member aromatic ring
+HE	H	sp3	H of CONH2
+
+Usage:
+addAtomTypes {
+  { "NE" "N" "sp2" }
+  { "NF" "N" "sp2" }
+  { "OE" "O" "sp2" }
+  { "HE" "H" "sp3" }
+  
+}
+parmNAD=loadamberparams frcmod.NAD+
+loadoff NAD+.lib

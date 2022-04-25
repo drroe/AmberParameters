@@ -1,0 +1,32 @@
+Tcs modified paramaters for PGH (complex with TIM)
+MASS
+Cl 35.45         1.910               Chlorine 
+DH 1.008
+
+BOND
+CA-OH  450.0    1.364       JCC,7,(1986),230; TYR
+CA-Cl  236.8    1.720       CSD
+CA-OS  364.0    1.380       CSD
+N -OH  300.0      0.99
+DH-OH  553.0    0.960       JCC,7,(1986),230; SUGARS,SER,TYR
+
+ANGL
+CA-CA-OH    70.0      120.00    AA tyr
+CA-OH-HO    35.0      113.00    AA tyr
+CA-CA-Cl    57.1      119.36    NEW_MP2/6-31G    
+CA-CA-OS    66.1      122.03    NEW_MP2/6-31G
+CA-OS-CA    62.7      120.91    MP2/6-31G*     
+CA-OH-DH    50.0      113.00    replacement in tyr
+
+DIHE
+CA-CA-OS-CA    2    1.56       -165.3             1.
+CA-CA-OS-CA    2    1.51       -166.5             2.
+CA-CA-OS-CA    2    0.66         -8.6             3.
+CA-CA-OH-HO    2    1.80        180.0             2.         JCC,7,(1986),230
+
+IMPR
+CA-CA-CA-Cl         1.1          180.          2.           added by cuigl 
+
+NONB
+Cl          1.948   0.265              Fox, JPCB,102,8070,(98),flex.mdl CHCl3
+DH          1.0000  0.000

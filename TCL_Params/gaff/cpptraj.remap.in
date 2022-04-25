@@ -1,0 +1,5 @@
+parm 2pd3-tcs-chainA.mol2
+trajin 2pd3-tcs-chainA.mol2
+readdata remap.to.pdb.dat index 1 name Remap
+remap data Remap:2
+trajout remap.mol2

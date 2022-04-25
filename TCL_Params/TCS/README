@@ -1,0 +1,5 @@
+
+Triclosan params
+> loadoff tcs.pert2.lib
+> loadamberparams tcs.frcmod
+

@@ -1,0 +1,28 @@
+-I: Adding /u/droe/Amber/Binaries/gcc_8.2/cuda_10.1/mvapich2_2.3/dat/leap/prep to search path.
+-I: Adding /u/droe/Amber/Binaries/gcc_8.2/cuda_10.1/mvapich2_2.3/dat/leap/lib to search path.
+-I: Adding /u/droe/Amber/Binaries/gcc_8.2/cuda_10.1/mvapich2_2.3/dat/leap/parm to search path.
+-I: Adding /u/droe/Amber/Binaries/gcc_8.2/cuda_10.1/mvapich2_2.3/dat/leap/cmd to search path.
+-f: Source leap.createGaffLib.in.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: ./leap.createGaffLib.in
+----- Source: /u/droe/Amber/Binaries/gcc_8.2/cuda_10.1/mvapich2_2.3/dat/leap/cmd/leaprc.gaff
+----- Source of /u/droe/Amber/Binaries/gcc_8.2/cuda_10.1/mvapich2_2.3/dat/leap/cmd/leaprc.gaff done
+Log file: ./leap.log
+Loading parameters: /u/droe/Amber/Binaries/gcc_8.2/cuda_10.1/mvapich2_2.3/dat/leap/parm/gaff.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 1.81, May 2017)
+Loading Mol2 file: ./2pd3-tcs-chainA.remap.mol2
+Reading MOLECULE named TCS
+Checking 'TCL'....
+Checking parameters for unit 'TCL'.
+Checking for bond parameters.
+Checking for angle parameters.
+Unit is OK.
+ Creating 2pd3-tcl-chainA.remap.lib
+Building topology.
+Building atom parameters.
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 0; Notes = 0.
