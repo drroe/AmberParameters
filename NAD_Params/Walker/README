@@ -9,6 +9,12 @@ CI	C	sp2	*Carbon bonded to CF and CF in 6 member aromatic ring (Duplicate in bsc
 CJ	C	sp2	*Carbon bonded to CF and NF in 6 member aromatic ring
 HE	H	sp3	H of CONH2
 
+May also need:
+  { "CE" "C" "sp2" }
+  { "CF" "C" "sp2" }
+  { "CG" "C" "sp2" }
+
+
 Usage:
 addAtomTypes {
   { "NE" "N" "sp2" }
